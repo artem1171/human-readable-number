@@ -3,15 +3,8 @@ module.exports = function toReadable (number) {
     if (number === 0) {
         return 'zero';
     }
-    // if (number === 990) {
-    //     return 'nine hundred ninety';
-    // }
-    if (number === 11) {
-        return 'eleven';
-    }
 
     let wordNumber ={
-        0: 'zero',
         1: 'one',
         2: 'two',
         3: 'three',
